@@ -1,0 +1,15 @@
+Arica,5,99.22
+Arica,5,99.17
+Vallenar,5,99.15
+Melipilla,5,98.99
+Quillota,5,98.89
+Iquique,5,98.84
+San Antonio,5,98.79
+Coyhaique,5,98.77
+Ovalle,5,98.09
+Curicó,5,97.91
+Lota,5,97.74
+Angol,5,97.73
+La Serena,5,96.10
+Temuco,5,95.55
+San Antonio,5,94.85

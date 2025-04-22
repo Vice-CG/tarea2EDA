@@ -32,16 +32,18 @@ int compare(const void *a, const void *b) {
         return city2->priority - city1->priority;  // Descendente (mayor prioridad primero)
     }
 
-    // Si las prioridades son iguales, comparar por porcentaje de riesgo
+ // Si son iguales, comparar por nivel sísmico
+ if (city2->seismic_level != city1->seismic_level) {
+    return city2->seismic_level - city1->seismic_level;  // Descendente (mayor nivel sísmico primero)
+}
+
+
+    // Si son iguales, comparar por porcentaje de riesgo
     if (city2->risk_percent != city1->risk_percent) {
         return (city2->risk_percent - city1->risk_percent) > 0 ? 1 : -1;  // Descendente (mayor riesgo primero)
     }
 
-    // Si también son iguales, comparar por nivel sísmico
-    if (city2->seismic_level != city1->seismic_level) {
-        return city2->seismic_level - city1->seismic_level;  // Descendente (mayor nivel sísmico primero)
-    }
-
+   
     // Si todo es igual, desempatar por nombre de la ciudad en orden inverso (Z-A)
     return strcmp(city2->city_name, city1->city_name);  // Z-A
 }
