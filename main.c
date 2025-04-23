@@ -29,7 +29,7 @@ int main(int argc, char *argv[]) {
         free(cities);
         return 1;
     }
-
+   // Escribimos encabezado
 fprintf(fout, "city_name,seismic_level,risk_percent\n");
 
 for (int i = 0; i < N && i < count; i++) {
