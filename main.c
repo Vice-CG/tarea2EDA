@@ -21,7 +21,7 @@ int main(int argc, char *argv[]) {
         return 1;
     }
 
-    qsort(cities, count, sizeof(CityData), compare);
+    sort_cities(cities, count);
 
     FILE *fout = fopen(output_file, "w");
     if (!fout) {
