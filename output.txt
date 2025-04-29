@@ -486,6 +486,27 @@ Osorno,3,54.82
 Arica,3,54.35
 Talca,3,52.56
 Ovalle,3,52.04
+Calama,3,
+Calama,3,
+Chillán,3,
+Chillán,3,
+Chillán,3,
+Colina,3,
+Concepción,3,
+Concepción,3,
+Coyhaique,3,
+Curanilahue,3,
+Los Ángeles,3,
+Lota,3,
+Lota,3,
+Osorno,3,
+Peñaflor,3,
+Rancagua,3,
+San Antonio,3,
+Santiago,3,
+Talca,3,
+Talca,3,
+Talcahuano,3,
 Curicó,3,51.68
 Talcahuano,3,50.61
 Curanilahue,3,49.78
@@ -562,27 +583,6 @@ Antofagasta,3,11.99
 La Serena,3,11.52
 Curanilahue,3,10.97
 Melipilla,3,10.11
-Calama,3,
-Calama,3,
-Chillán,3,
-Chillán,3,
-Chillán,3,
-Colina,3,
-Concepción,3,
-Concepción,3,
-Coyhaique,3,
-Curanilahue,3,
-Los Ángeles,3,
-Lota,3,
-Lota,3,
-Osorno,3,
-Peñaflor,3,
-Rancagua,3,
-San Antonio,3,
-Santiago,3,
-Talca,3,
-Talca,3,
-Talcahuano,3,
 Copiapó,2,99.83
 Angol,2,99.46
 Copiapó,2,99.32
