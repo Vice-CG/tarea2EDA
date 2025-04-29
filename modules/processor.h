@@ -13,7 +13,7 @@ typedef struct {
 CityData* read_city_data(const char* filename, int* city_count);
 void free_city_data(CityData* data);
 
-// CAMBIO AQUÍ: usamos int, no float
+// CAMBIO AQUÍ: Usamos int, no float
 int get_priority(int seismic_level, int risk_missing);
 
 int load_city_data(const char *filename, CityData **cities_out, int *count_out);

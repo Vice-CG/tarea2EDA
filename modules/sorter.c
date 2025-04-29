@@ -25,16 +25,16 @@ int compare(const void *a, const void *b) {
 
     // Si uno tiene y el otro no, aplicamos regla personalizada según nivel
     if (level == 5 || level == 4) {
-        // Falta riesgo -> más arriba
+        // Falta riesgo -> Más arriba
         return city1->risk_missing ? -1 : 1;
     } else if (level == 3) {
-        // Falta riesgo -> justo en la mitad. Después lo acomodamos con reorder_level3
+        // Falta riesgo -> Justo en la mitad. Después lo acomodamos con reorder_level3
         return city1->risk_missing ? 1 : -1;
     } else if (level == 2) {
-        // Falta riesgo -> debajo de los nivel 2 con riesgo
+        // Falta riesgo -> Debajo de los nivel 2 con riesgo
         return city1->risk_missing ? 1 : -1;
     } else if (level == 1) {
-        // Falta riesgo -> igual de últimos
+        // Falta riesgo -> Igual de últimos
         return city1->risk_missing ? 1 : -1;
     }
 

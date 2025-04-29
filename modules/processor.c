@@ -67,7 +67,7 @@ int load_city_data(const char *filename, CityData **cities_out, int *count_out) 
             cities[count].risk_missing = 0;
         } else {
             cities[count].risk_percent = 0.0;
-            cities[count].risk_missing = 1;  // dato faltante
+            cities[count].risk_missing = 1;  // Dato faltante
         }
 
         cities[count].priority = get_priority(level, cities[count].risk_missing);
