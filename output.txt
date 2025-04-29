@@ -1,21 +1,21 @@
 city_name,seismic_level,risk_percent
-Antofagasta,5,
-Calama,5,
-Copiapó,5,
-Coyhaique,5,
-Curanilahue,5,
-Curicó,5,
-La Serena,5,
-La Serena,5,
-La Serena,5,
-Lota,5,
-Ovalle,5,
-Puerto Montt,5,
-Punta Arenas,5,
-Quilpué,5,
-Rancagua,5,
-Vallenar,5,
 Valparaíso,5,
+Vallenar,5,
+Rancagua,5,
+Quilpué,5,
+Punta Arenas,5,
+Puerto Montt,5,
+Ovalle,5,
+Lota,5,
+La Serena,5,
+La Serena,5,
+La Serena,5,
+Curicó,5,
+Curanilahue,5,
+Coyhaique,5,
+Copiapó,5,
+Calama,5,
+Antofagasta,5,
 Arica,5,99.22
 Arica,5,99.17
 Vallenar,5,99.15
@@ -46,9 +46,9 @@ Los Ángeles,5,88.00
 Calama,5,87.97
 Lota,5,87.76
 Penco,5,86.35
-Angol,5,86.00
-Antofagasta,5,86.00
 Curicó,5,86.00
+Antofagasta,5,86.00
+Angol,5,86.00
 Rancagua,5,85.86
 Linares,5,84.87
 Puerto Montt,5,84.43
@@ -138,8 +138,8 @@ Vallenar,5,37.01
 Curicó,5,36.91
 Talca,5,35.50
 Curicó,5,35.47
-Curicó,5,35.07
 San Fernando,5,35.07
+Curicó,5,35.07
 Linares,5,32.34
 Temuco,5,32.30
 Punta Arenas,5,32.21
@@ -169,12 +169,12 @@ Punta Arenas,5,22.79
 San Fernando,5,22.77
 Iquique,5,22.76
 Chillán,5,22.63
-Concepción,5,22.43
 Ovalle,5,22.43
+Concepción,5,22.43
 Curanilahue,5,19.40
 Antofagasta,5,19.06
-Melipilla,5,19.01
 Talca,5,19.01
+Melipilla,5,19.01
 Ovalle,5,18.62
 Santiago,5,18.59
 Vallenar,5,18.40
@@ -190,8 +190,8 @@ Temuco,5,13.92
 Antofagasta,5,13.74
 Quillota,5,13.27
 Vallenar,5,13.07
-Concepción,5,12.91
 Temuco,5,12.91
+Concepción,5,12.91
 San Fernando,5,11.73
 Colina,5,11.62
 Valparaíso,5,10.43
@@ -199,35 +199,35 @@ Puerto Montt,5,10.40
 La Serena,5,10.33
 Peñaflor,5,10.16
 Quilpué,5,10.00
-Angol,4,
-Angol,4,
-Antofagasta,4,
-Antofagasta,4,
-Arica,4,
-Chillán,4,
-Chillán,4,
-Colina,4,
-Coyhaique,4,
-Coyhaique,4,
-Curanilahue,4,
-Curicó,4,
-Los Ángeles,4,
-Melipilla,4,
-Melipilla,4,
-Osorno,4,
-Ovalle,4,
-Ovalle,4,
-Penco,4,
-Peñaflor,4,
-Punta Arenas,4,
-Punta Arenas,4,
-Punta Arenas,4,
-Quillota,4,
-Rancagua,4,
-Santiago,4,
-Santiago,4,
-Vallenar,4,
 Villa Alemana,4,
+Vallenar,4,
+Santiago,4,
+Santiago,4,
+Rancagua,4,
+Quillota,4,
+Punta Arenas,4,
+Punta Arenas,4,
+Punta Arenas,4,
+Peñaflor,4,
+Penco,4,
+Ovalle,4,
+Ovalle,4,
+Osorno,4,
+Melipilla,4,
+Melipilla,4,
+Los Ángeles,4,
+Curicó,4,
+Curanilahue,4,
+Coyhaique,4,
+Coyhaique,4,
+Colina,4,
+Chillán,4,
+Chillán,4,
+Arica,4,
+Antofagasta,4,
+Antofagasta,4,
+Angol,4,
+Angol,4,
 Santiago,4,99.94
 Iquique,4,99.67
 Iquique,4,99.15
@@ -486,27 +486,27 @@ Osorno,3,54.82
 Arica,3,54.35
 Talca,3,52.56
 Ovalle,3,52.04
-Calama,3,
-Calama,3,
-Chillán,3,
-Chillán,3,
-Chillán,3,
-Colina,3,
-Concepción,3,
-Concepción,3,
-Coyhaique,3,
-Curanilahue,3,
-Los Ángeles,3,
-Lota,3,
-Lota,3,
-Osorno,3,
-Peñaflor,3,
-Rancagua,3,
-San Antonio,3,
-Santiago,3,
-Talca,3,
-Talca,3,
 Talcahuano,3,
+Talca,3,
+Talca,3,
+Santiago,3,
+San Antonio,3,
+Rancagua,3,
+Peñaflor,3,
+Osorno,3,
+Lota,3,
+Lota,3,
+Los Ángeles,3,
+Curanilahue,3,
+Coyhaique,3,
+Concepción,3,
+Concepción,3,
+Colina,3,
+Chillán,3,
+Chillán,3,
+Chillán,3,
+Calama,3,
+Calama,3,
 Curicó,3,51.68
 Talcahuano,3,50.61
 Curanilahue,3,49.78
@@ -575,8 +575,8 @@ Peñaflor,3,16.32
 San Fernando,3,16.18
 Linares,3,15.96
 Peñaflor,3,13.84
-Angol,3,13.57
 Antofagasta,3,13.57
+Angol,3,13.57
 San Antonio,3,13.13
 Ovalle,3,12.69
 Antofagasta,3,11.99
@@ -588,8 +588,8 @@ Angol,2,99.46
 Copiapó,2,99.32
 Coyhaique,2,99.04
 Osorno,2,98.29
-Peñaflor,2,97.93
 Valdivia,2,97.93
+Peñaflor,2,97.93
 Arica,2,97.14
 Punta Arenas,2,95.84
 Angol,2,95.60
@@ -610,10 +610,10 @@ Coronel,2,88.62
 Temuco,2,87.31
 Lota,2,85.37
 Lota,2,84.74
-Concepción,2,84.56
 Los Ángeles,2,84.56
-Curanilahue,2,84.10
+Concepción,2,84.56
 San Antonio,2,84.10
+Curanilahue,2,84.10
 San Antonio,2,83.58
 Melipilla,2,83.25
 La Serena,2,83.21
@@ -630,8 +630,8 @@ Colina,2,78.52
 Coyhaique,2,78.14
 Chillán,2,76.77
 Los Ángeles,2,75.30
-Lota,2,74.73
 Talca,2,74.73
+Lota,2,74.73
 Talcahuano,2,74.22
 Punta Arenas,2,72.86
 Penco,2,72.39
@@ -768,25 +768,25 @@ Coyhaique,2,12.13
 Curanilahue,2,12.03
 Curanilahue,2,11.03
 Vallenar,2,11.01
-Curicó,2,10.49
 Villa Alemana,2,10.49
+Curicó,2,10.49
 Osorno,2,10.31
-Angol,2,
-Colina,2,
-Concepción,2,
-Coronel,2,
-Linares,2,
-Lota,2,
-Melipilla,2,
-Melipilla,2,
-Penco,2,
-Peñaflor,2,
-Quillota,2,
-Rancagua,2,
-San Fernando,2,
+Vallenar,2,
+Vallenar,2,
 Temuco,2,
-Vallenar,2,
-Vallenar,2,
+San Fernando,2,
+Rancagua,2,
+Quillota,2,
+Peñaflor,2,
+Penco,2,
+Melipilla,2,
+Melipilla,2,
+Lota,2,
+Linares,2,
+Coronel,2,
+Concepción,2,
+Colina,2,
+Angol,2,
 Temuco,1,98.60
 Santiago,1,98.15
 Copiapó,1,95.85
@@ -825,8 +825,8 @@ Valdivia,1,80.15
 Peñaflor,1,80.03
 Osorno,1,78.75
 Antofagasta,1,76.86
-Curicó,1,76.13
 Puerto Montt,1,76.13
+Curicó,1,76.13
 Puerto Montt,1,75.81
 Ovalle,1,75.75
 Linares,1,75.55
@@ -843,15 +843,15 @@ Puerto Montt,1,69.01
 San Fernando,1,68.56
 Talca,1,68.46
 Calama,1,68.14
-Lota,1,67.53
 Peñaflor,1,67.53
+Lota,1,67.53
 Curicó,1,67.17
 Osorno,1,66.99
 Angol,1,66.87
 Penco,1,66.02
 Punta Arenas,1,65.66
-Angol,1,65.59
 Punta Arenas,1,65.59
+Angol,1,65.59
 Quillota,1,65.04
 Villa Alemana,1,64.42
 Villa Alemana,1,63.78
@@ -932,8 +932,8 @@ Angol,1,30.58
 Curanilahue,1,30.24
 Copiapó,1,30.03
 Los Ángeles,1,29.93
-Curanilahue,1,29.53
 Iquique,1,29.53
+Curanilahue,1,29.53
 San Fernando,1,28.88
 La Serena,1,28.10
 Coyhaique,1,27.57
@@ -967,35 +967,35 @@ Villa Alemana,1,12.53
 Vallenar,1,12.41
 San Antonio,1,10.74
 Vallenar,1,10.65
-Angol,1,
-Angol,1,
-Arica,1,
-Calama,1,
-Calama,1,
-Colina,1,
-Coronel,1,
-Coronel,1,
-Coronel,1,
-Coyhaique,1,
-Curicó,1,
-Iquique,1,
-Iquique,1,
-Linares,1,
-Linares,1,
-Linares,1,
-Los Ángeles,1,
-Melipilla,1,
-Ovalle,1,
-Peñaflor,1,
-Puerto Montt,1,
-Punta Arenas,1,
-Punta Arenas,1,
-Rancagua,1,
-San Antonio,1,
-Santiago,1,
-Santiago,1,
-Talcahuano,1,
-Valdivia,1,
+Villa Alemana,1,
+Villa Alemana,1,
 Vallenar,1,
-Villa Alemana,1,
-Villa Alemana,1,
+Valdivia,1,
+Talcahuano,1,
+Santiago,1,
+Santiago,1,
+San Antonio,1,
+Rancagua,1,
+Punta Arenas,1,
+Punta Arenas,1,
+Puerto Montt,1,
+Peñaflor,1,
+Ovalle,1,
+Melipilla,1,
+Los Ángeles,1,
+Linares,1,
+Linares,1,
+Linares,1,
+Iquique,1,
+Iquique,1,
+Curicó,1,
+Coyhaique,1,
+Coronel,1,
+Coronel,1,
+Coronel,1,
+Colina,1,
+Calama,1,
+Calama,1,
+Arica,1,
+Angol,1,
+Angol,1,

@@ -20,7 +20,7 @@ int compare(const void *a, const void *b) {
                 return (city2->risk_percent - city1->risk_percent) > 0 ? 1 : -1;
         }
         // Si ambos tienen missing, o ambos tienen riesgo igual, comparar nombres
-        return strcmp(city1->city_name, city2->city_name);
+        return strcmp(city2->city_name, city1->city_name);
     }
 
     // Si uno tiene y el otro no, aplicamos regla personalizada según nivel
@@ -30,11 +30,8 @@ int compare(const void *a, const void *b) {
     } else if (level == 3) {
         // Falta riesgo -> Justo en la mitad. Después lo acomodamos con reorder_level3
         return city1->risk_missing ? 1 : -1;
-    } else if (level == 2) {
+    } else if (level == 2 || level == 1) {
         // Falta riesgo -> Debajo de los nivel 2 con riesgo
-        return city1->risk_missing ? 1 : -1;
-    } else if (level == 1) {
-        // Falta riesgo -> Igual de últimos
         return city1->risk_missing ? 1 : -1;
     }
 
