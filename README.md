@@ -34,9 +34,9 @@
 
 ## 3. Compilación
 
-- Por último, para poder compilar nuestro código, debemos utilizar el siguienteentrada:
+- Por último, para poder compilar nuestro código, debemos utilizar la siguiente entrada:
 
-## ./tarea2 input.csv (n° de ciudades a priorizar) output.txt ## <br>
+./tarea2 input.csv (n° de ciudades a priorizar) output.txt
 
 - De esta manera, nos entregará la cantidad de ciudades que hayamos definido clasificadas en base a su nivel sísmico y porcentaje de riesgo.
  
