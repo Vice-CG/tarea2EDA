@@ -11,7 +11,8 @@
 
 ## Solución desarrollada 
 > **Tarea2-EDA**
-La solución que desarrollamos en esta tarea está enfocada en ordenar las ciudades en base al riesgo de terremoto, basándonos en información que obtendremos de un CSV, el cual contiene el nivel de sismo y el porcentaje de riesgo de que pueda ocurrir dicho suceso. Luego de esto, ordenamos las ciudades por orden alfabético inverso (Z-A). Para poder desarrollar este sistema de priorización, utilizamos la siguiente estructura:
+
+- La solución que desarrollamos en esta tarea está enfocada en ordenar las ciudades en base al riesgo de terremoto, basándonos en información que obtendremos de un CSV, el cual contiene el nivel de sismo y el porcentaje de riesgo de que pueda ocurrir dicho suceso. Luego de esto, ordenamos las ciudades por orden alfabético inverso (Z-A). Para poder desarrollar este sistema de priorización, utilizamos la siguiente estructura:
 
 ## 1. Procesamiento, ordenamiento y validación de los datos
 
