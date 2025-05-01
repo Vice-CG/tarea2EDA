@@ -12,17 +12,17 @@
 ## Solución desarrollada 
 > **Tarea2-EDA**
 
-- La solución que desarrollamos en esta tarea está enfocada en ordenar las ciudades en base al riesgo de terremoto, basándonos en información que obtendremos de un CSV, el cual contiene el nivel de sismo y el porcentaje de riesgo de que pueda ocurrir dicho suceso. Luego de esto, ordenamos las ciudades por orden alfabético inverso (Z-A). Para poder desarrollar este sistema de priorización, utilizamos la siguiente estructura:
+- La solución que desarrollamos en esta tarea está enfocada en ordenar las ciudades en base al riesgo de terremoto, basándonos en información que obtuvimos de un CSV, el cual contiene el nivel de sismo y el porcentaje de riesgo de que pueda ocurrir dicho suceso. Luego de esto, ordenamos las ciudades por orden alfabético inverso (Z-A). Para poder desarrollar este sistema de priorización, utilizamos la siguiente estructura:
 
 ## 1. Procesamiento, ordenamiento y validación de los datos
 
 ### 1.1 Procesamiento de los datos
 
-- En primer lugar, llamamos a nuestro CSV el cual contiene toda la información necesaria para poder realizar la priorización, el cual puede contener y manejar más de 1000 registros. si nos encontramos con datos faltantes, la priorización se basa en su nivel de sismo, por lo tanto los definiremos como alta(4-5), media(3) y baja(1-2) prioridad.
+- En primer lugar, llamamos a nuestro CSV el cual contiene toda la información necesaria para poder realizar la priorización, el cual puede contener y manejar más de 1000 registros. si nos encontramos con datos faltantes, la priorización se basa en su nivel de sismo, por lo tanto los definiremos como alta(5-4), media(3) y baja(2-1) prioridad.
 
 ### 1.2 Ordenamiento de los datos
 
-- Para el ordenamiento de los datos, utilizamos algoritmos de ordenamiento basados QuickSorting, las cuales nos ayudaron a clasificar nuestra infromación, ya que tenemos que tomar en cuenta el porcensaje de riesgo de que pueda ocurrir un sismo. Si los sismos contienen el mismo nivel de sismo, los comparamos por su porcentaje de riesgo. Finalmente, para tener un ordenamiento lógico y basado en las prioridades definidas, ordenaremos los datos en primer los lugar los que tienen datos faltantes, luego los que tienen ambos datos e irán bajando progresivamente hasta el menor porcentaje y las ciudades por orden alfabético inverso.
+- Para el ordenamiento de los datos, utilizamos algoritmos de ordenamiento basados QuickSorting, los cuales nos ayudaron a clasificar nuestra infromación, ya que tenemos que tomar en cuenta el porcensaje de riesgo de que pueda ocurrir un sismo. Si los sismos contienen el mismo nivel de sismo, los comparamos por su porcentaje de riesgo. Finalmente, para tener un ordenamiento lógico y basado en las prioridades definidas. El ordenamiento de los datos es el siguiente, primero las ciudades que no tienen porcentaje de riesgo (nulos), estas dependiendo del riesgo (5.4.3,2 u 1) van ordenadas de distinta manera (arriba, almedio u abajo), luego los que tienen ambos datos. estos irán bajando progresivamente hasta el menor porcentaje. Las ciudades van ordenadas de manera alfabética  pero inverso.
 
 ### 1.3 Validación de los datos
 
