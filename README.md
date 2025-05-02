@@ -30,9 +30,11 @@
 
 ## 2. Implementación de funciones.
 
-- para tener un buen manejo de datos, aparte de manejar los datos, tenemos que definir qué tipo de valores utilizaremos (int, float, char, etc) para un buen manejo de nuestra información, definiendo nuestras funciones (.h) aparte, y luego las aplicamos a nuestro código (.c).
+- Para tener un buen manejo de datos, aparte de manejar los datos, tenemos que definir qué tipo de valores utilizaremos (int, float, char, etc) para un buen manejo de nuestra información, definiendo nuestras funciones (.h) aparte, y luego las aplicamos a nuestro código (.c).
 
 ## 3. Compilación
+
+- Antes que nada, se requiere el uso del comando "make" en la terminal (o mingw32-make si usas MinGW), esto permitirá la creación del archivo ejecutable (.exe), tomando los distintos archivos de código.
 
 - Por último, para poder compilar nuestro código, debemos utilizar la siguiente entrada:
 
