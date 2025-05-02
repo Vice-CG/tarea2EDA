@@ -22,7 +22,7 @@
 
 ### 1.2 Ordenamiento de los datos
 
-- Para el ordenamiento de los datos, utilizamos algoritmos de ordenamiento basados QuickSorting, los cuales nos ayudaron a clasificar nuestra infromación, ya que tenemos que tomar en cuenta el porcensaje de riesgo de que pueda ocurrir un sismo. Si los sismos contienen el mismo nivel de sismo, los comparamos por su porcentaje de riesgo. Finalmente, para tener un ordenamiento lógico y basado en las prioridades definidas. El ordenamiento de los datos es el siguiente, primero las ciudades que no tienen porcentaje de riesgo (nulos), estas dependiendo del riesgo (5.4.3,2 u 1) van ordenadas de distinta manera (arriba, almedio u abajo), luego los que tienen ambos datos. estos irán bajando progresivamente hasta el menor porcentaje. Las ciudades van ordenadas de manera alfabética  pero inverso.
+- Para el ordenamiento de los datos, utilizamos algoritmos de ordenamiento basados QuickSorting, los cuales nos ayudaron a clasificar nuestra infromación, ya que tenemos que tomar en cuenta el porcensaje de riesgo de que pueda ocurrir un sismo. Si los sismos contienen el mismo nivel de sismo, los comparamos por su porcentaje de riesgo. Finalmente, para tener un ordenamiento lógico y basado en las prioridades definidas. El ordenamiento de los datos es el siguiente, primero las ciudades que no tienen porcentaje de riesgo (nulos), estas dependiendo del riesgo (5-1) van ordenadas de distinta manera (arriba, almedio o abajo), luego los que tienen ambos datos. estos irán bajando progresivamente hasta el menor porcentaje. Las ciudades van ordenadas de manera alfabética  pero inverso.
 
 ### 1.3 Validación de los datos
 
