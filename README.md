@@ -18,11 +18,11 @@
 
 ### 1.1 Procesamiento de los datos
 
-- En primer lugar, llamamos a nuestro CSV el cual contiene toda la información necesaria para poder realizar la priorización, el cual puede contener y manejar más de 1000 registros. si nos encontramos con datos faltantes, la priorización se basa en su nivel de sismo, por lo tanto los definiremos como alta(5-4), media(3) y baja(2-1) prioridad.
+- En primer lugar, llamamos a nuestro CSV el cual contiene toda la información necesaria para poder realizar la priorización, el cual puede contener y manejar más de 1000 registros. si nos encontramos con datos faltantes, la priorización se basa en su nivel de sismo, por lo tanto los definiremos como alta (4-5), media (3) y baja (1-2) prioridad.
 
 ### 1.2 Ordenamiento de los datos
 
-- Para el ordenamiento de los datos, utilizamos algoritmos de ordenamiento basados QuickSorting, los cuales nos ayudaron a clasificar nuestra infromación, ya que tenemos que tomar en cuenta el porcensaje de riesgo de que pueda ocurrir un sismo. Si los sismos contienen el mismo nivel de sismo, los comparamos por su porcentaje de riesgo. Finalmente, para tener un ordenamiento lógico y basado en las prioridades definidas. El ordenamiento de los datos es el siguiente, primero las ciudades que no tienen porcentaje de riesgo (nulos), estas dependiendo del riesgo (5-1) van ordenadas de distinta manera (arriba, almedio o abajo), luego los que tienen ambos datos. estos irán bajando progresivamente hasta el menor porcentaje. Las ciudades van ordenadas de manera alfabética  pero inverso.
+- Para el ordenamiento de los datos, utilizamos algoritmos de ordenamiento basados QuickSorting, los cuales nos ayudaron a clasificar nuestra infromación, ya que tenemos que tomar en cuenta el porcensaje de riesgo de que pueda ocurrir un sismo. Si los sismos contienen el mismo nivel de sismo, los comparamos por su porcentaje de riesgo. Finalmente, para tener un ordenamiento lógico y basado en las prioridades definidas. El ordenamiento de los datos es el siguiente, primero las ciudades que no tienen porcentaje de riesgo (nulos), estas dependiendo del riesgo (5-1) van ordenadas de distinta manera (arriba, medio o abajo), luego los que tienen ambos datos. estos irán bajando progresivamente hasta el menor porcentaje. Las ciudades van ordenadas de manera alfabética pero inverso.
 
 ### 1.3 Validación de los datos
 
@@ -30,7 +30,7 @@
 
 ## 2. Implementación de funciones.
 
-- para tener un buen manejo de datos, aparte de manejar los datos, tenemos que definir qué tipo de valores utilizaremos(int. float, char) para un buen manejo de nuestra información, definiendo nuestras funciones (.h) aparte, y luego las aplicamos a nuestro código (.c).
+- para tener un buen manejo de datos, aparte de manejar los datos, tenemos que definir qué tipo de valores utilizaremos (int, float, char, etc) para un buen manejo de nuestra información, definiendo nuestras funciones (.h) aparte, y luego las aplicamos a nuestro código (.c).
 
 ## 3. Compilación
 
